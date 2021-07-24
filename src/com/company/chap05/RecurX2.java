@@ -14,8 +14,12 @@ public class RecurX2 {
                 continue;
             }
             if (s.isEmpty() != true) {
-                n = s
+                n = s.pop();
+                System.out.println(n);
+                n = n-2;
+                continue;
             }
+            break;
         }
     }
 }
